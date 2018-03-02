@@ -22,7 +22,7 @@ function maybeTrue() {return Math.random() >= 0.5}
  
 function doWhileLoop(array) {
 
-  do { (array.slice(0,1)) }
+  do { (array.shift() }
   while (array.length > 0 && maybeTrue());
   return array
 }
